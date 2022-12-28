@@ -1,0 +1,104 @@
+main {
+
+    
+    display: flex;
+    justify-content: center;
+
+}
+
+section{
+    
+    display: flex;
+    min-width: 600px;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+h2{
+
+    max-width: 160px;
+
+}
+
+ul{
+
+    min-width: 500px;
+    margin-top: 50px;
+
+}
+
+.cabecalho{
+
+    margin-top: -20px;
+    background-color: black;
+    color: white;
+    border-radius: 7px;
+
+}
+
+.cabecalho p{
+
+    margin-left: 20px;
+    margin-right: 15px;
+
+}
+
+
+.produto{
+
+    background-color: #f8f9fa;
+      
+}
+
+li{
+
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+    border-radius: 4px;
+
+}
+
+.produto p{
+    
+    margin-left: 20px;
+    margin-right: 15px;
+    
+}
+
+.rodape{
+
+    background-color: #e9ecef;
+    border-radius: 4px;
+
+}
+
+.rodape p{
+
+    margin-left: 20px;
+    margin-right: 15px;
+
+}
+
+button{
+
+    min-width: 500px;
+    min-height: 30px;
+    margin-top: 15px;
+    padding: 15px;
+    background-color: #20c997;
+    color: white;
+    border: #20c997 solid 2px;
+    border-radius: 7px;
+    margin-bottom: 50px;
+    cursor: pointer;
+    
+}
+
+button:hover{
+
+    border: black solid 2px;
+    color: black;
+    
+}
